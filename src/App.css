@@ -1,0 +1,149 @@
+.b-primary {
+  margin: 10px 5px;
+  display: block;
+  width: 100%;
+  background-color: #0275d8;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: medium;
+  padding: 10px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.b-primary:focus {
+  outline: none;
+}
+
+.p-2 {
+  display: inline;
+  margin-right: 5px;
+  font-size: x-large;
+  font-weight: 100;
+}
+
+.d-block {
+  display: block;
+  /* border: 0.5px solid #d3d3d3; */
+}
+
+.task {
+  border-top: 0.5px solid #d3d3d3;
+  border-bottom: 0.5px solid #d3d3d3;
+  padding: 7.5px 0;
+}
+
+.level-1 {
+  padding-left: 30px;
+  color: #50c6c6;
+  font-weight: bolder;
+}
+
+.level-2 {
+  padding-left: 60px;
+  font-weight: bolder;
+}
+
+.level-3 {
+  padding-left: 90px;
+  font-size: medium;
+  font-weight: 400;
+}
+
+.arrow-right {
+  padding: 0 5px;
+}
+
+.arrow-left {
+  padding: 0 5px;
+}
+
+.container {
+  margin: 50px 20px;
+  padding: 20px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  text-transform: uppercase;
+  font-size: medium;
+  color: #c0c0c0;
+}
+
+.icons {
+  color: #dcdcdc;
+  font-size: large;
+}
+
+.icons:hover {
+  color: #a9a9a9;
+}
+
+.icons > span:hover {
+  color: #50c6c6;
+}
+
+.icons-3 {
+  color: #dcdcdc;
+  font-size: large;
+}
+
+.icons-3:hover {
+  color: #a9a9a9;
+}
+
+.icons-3 > span:hover {
+  color: #50c6c6;
+}
+
+/*Table CSS*/
+
+.table-header {
+  display: block;
+  margin: 5px 0;
+  border-top: 0.5px #d3d3d3 solid;
+}
+
+th {
+  text-align: start;
+}
+
+.table-level-controller-head {
+  padding: 0 80px;
+}
+
+/* table {
+  border: 1px solid black;
+} */
+table {
+  width: 100%;
+  border-spacing: 0 !important;
+}
+
+.level-dark-1 {
+  width: 30px;
+  padding-top: 50%;
+  margin-left: 25px;
+  background-color: #dcdcdc;
+}
+
+.level-dark-2 {
+  width: 30px;
+  padding-top: 36%;
+  margin-left: 50px;
+  background-color: #dcdcdc;
+}
+
+.level-dark-3 {
+  width: 30px;
+  padding-top: 29%;
+  margin-left: 70px;
+  background-color: #dcdcdc;
+}
